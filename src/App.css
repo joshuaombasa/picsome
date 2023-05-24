@@ -1,0 +1,136 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Quicksand', sans-serif;
+}
+
+header {
+  background-color: black;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header a {
+  text-decoration: none;
+  color: yellow;
+}
+
+.logo--title {
+  font-family: 'Indie Flower', cursive;
+  font-weight: bold;
+  font-size: 40px;
+  margin: 0;
+}
+
+.ri-shopping-cart-line,.ri-shopping-cart-fill {
+  color: white;
+  font-size: 50px;
+}
+
+.ri-shopping-cart-fill {
+  color: yellow;
+}
+
+main {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.image--container {
+  width: 500px;
+  height: 600px;
+  display: flex;
+  border-radius: 20px;
+  margin: 20px;
+  position: relative;
+}
+
+.image--container img {
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+
+.ri-heart-line,.ri-heart-fill, .ri-add-circle-line {
+  position: absolute;
+  font-size: 40px;
+  color: red;
+}
+
+.ri-heart-line,.ri-heart-fill {
+  top: 3%;
+  left: 5%;
+}
+
+.ri-add-circle-line {
+  top: 3%;
+  right: 5%;
+}
+
+.cart--in--styling {
+  position: absolute;
+  top: 3%;
+  right: 5%;
+  color: red;
+  font-size: 40px;
+}
+
+.cart--container {
+  display: flex;
+  flex-direction: column;
+  margin: 20px auto;
+  padding: 20px;
+  gap: 30px;
+  width: 800px;
+}
+
+.cartItem--container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.cost--container {
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  padding: 20px;
+}
+
+.cartItem--container img {
+  width: 400px;
+  height: 200px;
+}
+
+.cartItem--container h3 {
+  font-size: 30px;
+}
+
+.ri-delete-bin-6-line {
+  font-size: 50px;
+}
+
+.make--order-btn {
+  width: 500px;
+  font-family: 'Quicksand', sans-serif;
+  padding: 20px;
+  color: white;
+  font-size: 30px;
+  border: none;
+  background-color: black ;
+  align-items: center;
+  margin: 0 auto;
+}
