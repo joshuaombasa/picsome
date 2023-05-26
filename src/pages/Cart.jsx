@@ -4,7 +4,6 @@ import CartItem from "../components/CartItem"
 
 export default function Cart() {
 
-
     const { cartItemsDataArray, totalCostOfItemsInCart } = useContext(cartContext)
 
     let cartItemsJsx
