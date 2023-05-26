@@ -7,11 +7,10 @@ import {CartContextProvider} from "./CartContext"
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <CartContextProvider>
-  <BrowserRouter>
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-  </BrowserRouter>
+     <BrowserRouter>
+        <React.StrictMode>
+           <App />
+        </React.StrictMode>
+     </BrowserRouter>
   </CartContextProvider>
-  ,
 )
