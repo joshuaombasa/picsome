@@ -5,7 +5,6 @@ export default function Photos() {
     
     const {photosData} = useContext(cartContext)
 
-    
 
     let PhotosJsx
     if (photosData) {
