@@ -13,7 +13,6 @@ export default function Image({ photo }) {
 
     const ItemInCartClassName = isImageInCart ? "ri-shopping-cart-fill" : "ri-add-circle-line"
    
-
     
     const heartClassName = photo.isFavorite ? "ri-heart-fill" : "ri-heart-line"
 
