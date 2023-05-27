@@ -7,8 +7,6 @@ export default function Image({ photo }) {
 
     const [isHovered, setIsHovered] = useState(false)
 
-   
-
     const isImageInCart = cartItemsDataArray.some(item => item.id === photo.id)
 
     const ItemInCartClassName = isImageInCart ? "ri-shopping-cart-fill" : "ri-add-circle-line"
