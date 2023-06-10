@@ -26,7 +26,6 @@ function CartContextProvider(props) {
     }
 
     function toggleIsFavourite(id) {
-        console.log(id)
         setPhotosData(prevPhotosData => {
             return prevPhotosData.map(photo => (
                 photo.id === id ? {...photo, isFavorite: !photo.isFavorite} : photo
