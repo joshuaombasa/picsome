@@ -14,7 +14,8 @@ export default function Header() {
                 <Link to="/">picSome</Link>
             </h1>
             <Link to="/cart">
-                <i className={`${iconToDisplay}`}></i>
+                <i className={`${iconToDisplay} cart--icon`}></i>
+                <span className="cart--count">{cartItemsDataArray.length > 0 && cartItemsDataArray.length}</span>
             </Link>
         </header>
     )
