@@ -134,3 +134,14 @@ main {
   align-items: center;
   margin: 0 auto;
 }
+
+.cart--icon {
+  position: relative;
+}
+
+.cart--count {
+  font-size: 1.3rem;
+  right: 40px;
+  top: 0;
+  position: absolute;
+}
